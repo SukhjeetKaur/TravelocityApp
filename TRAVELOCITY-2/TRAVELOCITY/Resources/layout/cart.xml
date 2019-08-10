@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="CityName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="357.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/txtSelectedCity"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:autoText="false"
+        android:gravity="center"/>
+    <Button
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckoutAdd"
+        android:foregroundGravity="center_vertical" />
+
+      <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckoutBack" />
+
+</LinearLayout>

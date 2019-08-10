@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRAVELOCITY", "TRAVELOCITY\TRAVELOCITY.csproj", "{1914DB19-DD65-47E8-A485-D4B69F151226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1914DB19-DD65-47E8-A485-D4B69F151226}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0D531F5-E85D-417D-9A42-CBD3A9DA1D50}
+	EndGlobalSection
+EndGlobal

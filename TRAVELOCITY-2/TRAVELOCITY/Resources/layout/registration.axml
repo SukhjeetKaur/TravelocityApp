@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/bg">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUsername"
+        android:hint="User Name"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:hint="Full Name"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:inputType="number"        
+        android:maxLength="3"
+        android:id="@+id/editAge"
+        android:hint="Age"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editEmail"
+        android:hint="Email"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPNumber"
+        android:hint="Phone Number"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:singleLine="true" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPassword"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="Confirm Password"
+        android:layout_height="wrap_content"
+        android:id="@+id/editConPassword"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="4dp"
+        android:singleLine="true" />
+    <Button
+        android:text="Sign up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="39.5dp" />
+ <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="2dp" />
+</LinearLayout>
